@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input, textarea, a, button, body {
+    caret-color: transparent;
+    cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1022.png), auto !important;
+}
+body {
+    background-attachment: fixed;
+    background-size: 350%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+}
